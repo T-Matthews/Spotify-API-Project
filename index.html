@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
+    <script src="spotify.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="buttonrow">
+    <button hidden="hidden" onclick="pauseSong();flipBool()" id="pbtn">Pause</button>
+    </div>
+        <div id = "row1"class="col-4 col-md-offset-4 ">
+            <div id="A0" class="A0 gridcont">
+                <img  id="0" src="https://i.scdn.co/image/ab67616d00001e029d36f9d7165c0b14777cb676" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="1" src="https://i.scdn.co/image/ab67616d00001e02329b9fe30f1a3fa4d7012c1a" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="2" src="https://i.scdn.co/image/ab67616d00001e0233755ce2c3a4460c7e67d963" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="3" src="https://i.scdn.co/image/ab67616d00001e02e1101c867f96b1ad292b76f0" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="4" src="https://i.scdn.co/image/ab67616d00001e02bfa99afb5ef0d26d5064b23b" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="5" src="https://i.scdn.co/image/ab67616d00001e0235010b7368af2e4968d46f22" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="6" src="https://i.scdn.co/image/ab67616d00001e02b25a7fb1b8ad5d1c3c09a20f" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="7" src="https://i.scdn.co/image/ab67616d00001e021a10340fc538a05f1b02382c" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+                <img  id="8" src="https://i.scdn.co/image/ab67616d00001e02a2b1d3e73c66663c01351bcf" onclick="event.stopPropagation();pickAlbum(this.id,event)" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
